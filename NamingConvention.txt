@@ -17,3 +17,4 @@ vs2-vehicles
 when merging the different tables
 all_data - conatins from ac1 and cs2
 all_data_1 - contains from all_data_2 and vs2
+all_data_2 - contained clean data, after cleaning all_data_1
