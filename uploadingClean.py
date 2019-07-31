@@ -74,7 +74,7 @@ all_data=pd.concat([ac1,cs2],axis='columns')
 all_data_1=pd.concat([all_data,vs2],axis='columns')
 
 #drop rows with missing value and check if there are any missing values afterwards
-all_data_1.dropna(axis=0)
-print(all_data_1.isna().values.any())
-print(all_data_1.isna().sum())
+all_data_2=all_data_1.dropna()
+print(all_data_2.isna().values.any())
+print(all_data_2.isna().sum())
 
